@@ -1,3 +1,10 @@
+"""
+File: main.py
+Authors: Chris Rogers, Milan Dahal, Tanushree Burman
+Modified By: Adin Lamport, Amanda-Lexine Sunga, Amanda Yan (Aug 2024)
+Purpose: MicroPython program to load Reinforcement Learning activity onto Smart Motors using I2C color sensor
+*** For Engineering with Artificial Intelligence Pre-College Program at Tufts University ***
+"""
 from machine import Pin, SoftI2C, Timer, unique_id
 from files import *
 import time, ubinascii, urandom, math
